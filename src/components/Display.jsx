@@ -1,7 +1,17 @@
+import JokesField from "./JokesField.jsx";
+import Trigger from "./Trigger";
+import Footer from "./Footer";
+
 export default function Display() {
   return (
-    <p>
-      <div className="joke-display"></div>
-    </p>
+    <>
+      <Trigger />
+      <p>
+        <div className="joke-display">
+          <JokesField />
+        </div>
+        <Footer />
+      </p>
+    </>
   );
 }
