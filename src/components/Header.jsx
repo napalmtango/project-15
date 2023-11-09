@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Header(props) {
+function Header(props) {
   // console.log(props);
   return (
     <h1>
@@ -9,3 +7,5 @@ export default function Header(props) {
     </h1>
   );
 }
+
+export default Header;

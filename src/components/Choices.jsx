@@ -1,18 +1,9 @@
 export default function Choices() {
   return (
-    <p>
-      <input id="nerd" type="checkbox"></input>
-      <label htmlFor="nerd" className="check-marg">
-        Coder
-      </label>
-      <input id="knock" type="checkbox"></input>
-      <label htmlFor="knock" className="check-marg">
-        Knock-knock
-      </label>
-      <input id="general" type="checkbox"></input>
-      <label htmlFor="general" className="check-marg">
-        General
-      </label>
-    </p>
+    <div>
+      <span className="check">&#9745;</span>Coder
+      <span className="check"> &#9744;</span>Knock-knock
+      <span className="check"> &#9744;</span>General
+    </div>
   );
 }
