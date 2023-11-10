@@ -3,12 +3,10 @@ import { useState } from "react";
 
 export default function App() {
   // useState declarations
-  const [num1, setNum1] = useState(Math.floor(Math.random() * 200 - 100));
-  const [num2, setNum2] = useState(Math.floor(Math.random() * 200 - 100));
-  const [num3, setNum3] = useState(Math.floor(Math.random() * 200 - 100));
+  const [num1, setNum1] = useState(5);
+  const [num2, setNum2] = useState(-16);
+  const [num3, setNum3] = useState(78);
   const [sum4, setSum4] = useState(0);
-  const numbers = [num1,num2,num3];
-
 
   return (
     <div className="App">
@@ -78,7 +76,7 @@ export default function App() {
           <span
             className="btn"
             onClick={() => {
-              setNum3(98);
+              setNum3(78);
             }}
           ></span>
           &#x2610;<span className="size16">{num3}</span>
