@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/project-15/static/css/main.1c5b23d7.css",
-    "main.js": "/project-15/static/js/main.d2365d1b.js",
-    "index.html": "/project-15/index.html",
-    "main.1c5b23d7.css.map": "/project-15/static/css/main.1c5b23d7.css.map",
-    "main.d2365d1b.js.map": "/project-15/static/js/main.d2365d1b.js.map"
+    "main.css": "/project-15_Sums-and-Nums/static/css/main.1c5b23d7.css",
+    "main.js": "/project-15_Sums-and-Nums/static/js/main.d2365d1b.js",
+    "index.html": "/project-15_Sums-and-Nums/index.html",
+    "main.1c5b23d7.css.map": "/project-15_Sums-and-Nums/static/css/main.1c5b23d7.css.map",
+    "main.d2365d1b.js.map": "/project-15_Sums-and-Nums/static/js/main.d2365d1b.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5b23d7.css",
